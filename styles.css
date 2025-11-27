@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 10% 25% 0% 25%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Title{
+    font-size: 1.5em;
+}
+
+.Title h1{
+    font-size: 2em;
+}
+
+.Title p {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+label {
+    display: block;
+    margin-top: 3em;
+    font-weight: bold;
+    margin-right: 9em;
+    font-size: 1.3em;
+}
+
+#zip-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#zip-form input[type="text"] {
+    position: relative;
+    align-self: center;
+    width: 150%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    outline-color: black;
+    font-size: 1em;
+}
+
+ #myButton {
+    position: relative;
+    margin-top: 2em;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgba(64, 111, 182, 1);
+    height: 2.5em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+#change-loc {
+    position: relative;
+    margin-top: 2em;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgba(132, 132, 132, 1);
+    height: 3em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+.result {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 1em;
+
+}

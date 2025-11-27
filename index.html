@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Title">
+        <h1>Weather Lookup</h1>
+        <p>Type your Zip Code to see the weather</p>
+    </div>
+    <label for="zip-code">Zip Code</label>
+    <form id="zip-form">
+        <input type="text" id="zip-code" name="zip-code" placeholder="text goes here" pattern="\d{5}"  autofocus required>
+        <button id="myButton" type="submit" formaction="temp.html">Submit</button>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
